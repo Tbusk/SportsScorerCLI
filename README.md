@@ -25,3 +25,15 @@ This project implements the Observer design pattern, which passes data from the 
 - Spring Boot
 - Spring Shell
 - Spring AOP
+
+### Logging
+Logging is done with SLF4J using Spring AOP.
+
+### Data Transfer
+Data is transferred in this application primarily with records.
+
+### Interface
+The interface is made possible using the Spring Shell framework.
+
+### Exception Handling
+Exceptions are resolved in the command classes using exception resolvers.
