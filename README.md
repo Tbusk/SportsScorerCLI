@@ -4,7 +4,7 @@ This is a command line interface (CLI) application created for SENG350 (Software
 related to sports scoring. 
 This project implements the Observer design pattern, which passes data from the subject to all subscribers.
 
-## Features
+### Features
 - Start a game.
 - End a game.
 - Predict running game winner.
@@ -21,10 +21,11 @@ This project implements the Observer design pattern, which passes data from the 
 - View a list of available commands (help).
 - Exit CLI.
 
-## External Libraries / Frameworks
-- Spring Boot
-- Spring Shell
-- Spring AOP
+### Java Version
+This application makes use of Java version 23.
+
+### Dependency Management
+This application makes use of Gradle to manage dependencies.
 
 ### Logging
 Logging is done with SLF4J using Spring AOP.
@@ -37,3 +38,8 @@ The interface is made possible using the Spring Shell framework.
 
 ### Exception Handling
 Exceptions are resolved in the command classes using exception resolvers.
+
+### External Libraries / Frameworks
+- Spring Boot
+- Spring Shell
+- Spring AOP
