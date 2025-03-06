@@ -14,6 +14,7 @@ This project implements the Observer design pattern, which passes data from the 
 - View a team's win history.
 - Get current scoreboard.
 - Simulate a round by adding random points to each team.
+- Add scores to each team.
 - View a table of finished games.
 - View latest news headline.
 - View all available news headlines.
